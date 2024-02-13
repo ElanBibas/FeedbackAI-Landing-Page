@@ -25,7 +25,7 @@ export default function Hero() {
             <p className="text-xl text-gray-100 mb-8" data-aos="fade-up" data-aos-delay="200">We overhaul the feedback cycle, and use AI to bridge the gap between gamers and developers. Cycle makes sure valuable feedback doesn't just get heard: it gets understood.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-red-100 hover:bg-red-100/75 w-full mb-4 sm:w-auto sm:mb-0" href="https://getcycle.vercel.app/">Try Demo</a>
+                <a className="btn text-white bg-red-100 hover:bg-red-100/75 w-full mb-4 sm:w-auto sm:mb-0" href="https://getcycle.vercel.app/">Try Cycle</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
                 <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#contact-us">Get in Touch</a>

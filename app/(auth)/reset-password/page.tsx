@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Reset Password - Open PRO',
-  description: 'Page description',
+  title: 'Reset Password - Cycle',
+  description: 'Reset Cycle password',
 }
 
 import Link from 'next/link'

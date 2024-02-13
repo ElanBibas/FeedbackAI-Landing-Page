@@ -30,7 +30,7 @@ export default function Header() {
                   href="https://getcycle.vercel.app/"
                   className="font-medium text-red-100 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Try Demo
+                  Try Cycle
                 </Link>
               </li>
               <li>

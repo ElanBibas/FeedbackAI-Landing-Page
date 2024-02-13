@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Open PRO',
-  description: 'Page description',
+  title: 'Try Cycle',
+  description: 'A better feedback system',
 }
 
 import Hero from '@/components/hero'

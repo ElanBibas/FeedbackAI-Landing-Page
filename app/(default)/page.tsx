@@ -1,7 +1,8 @@
 export const metadata = {
   title: 'Try Cycle',
   description: 'A better feedback system',
-}
+  opengraphimage: "@/public/images/hero-background.jpeg",
+} as any;
 
 import Hero from '@/components/hero'
 import Features from '@/components/features'

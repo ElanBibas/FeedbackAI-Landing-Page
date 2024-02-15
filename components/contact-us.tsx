@@ -1,4 +1,45 @@
+'use client';
+import { useState } from 'react';
+import emailjs from '@emailjs/browser';
+
 export default function ContactUs() {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [stateMessage, setStateMessage] = useState(null);
+
+  const sendEmail = (e) => {
+    emailjs.init({
+      publicKey: 's11YRla4eBsvShI1z',
+    });
+    e.persist();
+    e.preventDefault();
+    setIsSubmitting(true);
+    emailjs
+      .sendForm(
+"service_ulqevim",
+        process.env.REACT_APP_TEMPLATE_ID,
+        e.target,
+        process.env.REACT_APP_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          setStateMessage('Message sent!');
+          setIsSubmitting(false);
+          setTimeout(() => {
+            setStateMessage(null);
+          }, 5000); // hide message after 5 seconds
+        },
+        (error) => {
+          setStateMessage('Something went wrong, please try again later');
+          setIsSubmitting(false);
+          setTimeout(() => {
+            setStateMessage(null);
+          }, 5000); // hide message after 5 seconds
+        }
+      );
+    
+    // Clears the form after sending the email
+    e.target.reset();
+  };
   return (
     <section id="contact-us">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -28,7 +69,7 @@ export default function ContactUs() {
             </div>
 
             {/* CTA form */}
-            <form className="bg-black px-3 py-4 w-full">
+            <form className="bg-black px-3 py-4 w-full" onSubmit={sendEmail}>
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
                   <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="full-name">Full Name <span className="text-red-600">*</span></label>
@@ -56,6 +97,7 @@ export default function ContactUs() {
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
                   <button className="btn text-white bg-red-100 hover:bg-red-100/75 w-full">Submit</button>
+                  {stateMessage && <p>{stateMessage}</p>}
                 </div>
               </div>
             </form>

@@ -55,7 +55,9 @@ export default function ContactUs() {
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
-                  <button className="btn text-white bg-red-100 hover:bg-red-100/75 w-full">Submit</button>
+                  <a href="mailto:conor@simpleventures.ca" className="btn text-white bg-red-100 hover:bg-red-100/75 w-full inline-block text-center">
+                    Submit
+                  </a>
                 </div>
               </div>
             </form>

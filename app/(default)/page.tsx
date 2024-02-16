@@ -2,6 +2,15 @@ export const metadata = {
   title: 'Try Cycle',
   description: 'A better feedback system',
   opengraphimage: "@/public/images/hero-background.jpeg",
+  icons: {
+    icon: '/icon.png',
+    shortcut: '/shortcut-icon.png',
+    apple: '/apple-icon.png',
+    other: {
+      rel: 'apple-touch-icon-precomposed',
+      url: '/apple-touch-icon-precomposed.png',
+    },
+  },
 } as any;
 
 import Hero from '@/components/hero'

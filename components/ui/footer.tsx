@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="py-12 md:py-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 border-t border-gray-800">
         <div className="md:py-5">
                 {/* Logo */}
                 <Link href="/" className="inline-block" aria-label="Cycle">
@@ -76,7 +76,7 @@ export default function Footer() {
                 <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Pitch Deck</Link>
+                    <Link href="https://docsend.com/view/2ziiez6gxtdfy9yk" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Pitch Deck</Link>
                   </li>
                   <li className="mb-1">
                     <Link href="mailto:conor@simpleventures.ca" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Careers</Link>

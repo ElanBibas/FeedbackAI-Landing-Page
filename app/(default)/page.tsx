@@ -19,6 +19,7 @@ import ContactUs from '@/components/contact-us'
 import Zigzag from '@/components/zigzag'
 import Testimonials from '@/components/testimonials'
 import GetStarted from '@/components/get-started'
+import Team from '@/components/team'
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
       <Testimonials />
       <GetStarted />
       <ContactUs />
+      <Team />
     </>
   )
 }

@@ -35,7 +35,7 @@ export default function Team() {
               />
               <h4 className="h4 my-2">Conor Plunkett</h4>
               <ul className="text-lg text-gray-400 text-center space-y-1.5">
-                <li>Employee #1 at a $25mm venture studio, 2x launched</li>
+                <li>First junior hire at a $25mm venture studio, 2x companies launched</li>
                 <li>Full-Stack SWE at Coinbase, Wealthsimple</li>
                 <li>PM at RBC</li>
                 <li>Cansbridge Fellow</li>

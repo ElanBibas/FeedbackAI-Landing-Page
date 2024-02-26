@@ -50,7 +50,14 @@ export default function ContactUs() {
                 Got questions? We'd love to hear from you. Reach out and let's
                 start the conversation.
               </p>
-              <Link href="https://docsend.com/view/2ziiez6gxtdfy9yk" className="text-black hover:text-gray-100 transition duration-150 ease-in-out mt-3">Investor? Click here.</Link>
+              <Link
+                href="https://docsend.com/view/2ziiez6gxtdfy9yk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-black hover:text-gray-100 transition duration-150 ease-in-out mt-3"
+              >
+                Investor? Click here.
+              </Link>
             </div>
 
             {/* CTA form */}
@@ -131,7 +138,6 @@ export default function ContactUs() {
               </div>
             </form>
           </div>
-
         </div>
       </div>
     </section>

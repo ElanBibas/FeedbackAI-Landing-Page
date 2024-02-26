@@ -27,7 +27,9 @@ export default function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
+                  target="_blank"
                   href="https://getcycle.vercel.app/"
+                  rel="noopener noreferrer"
                   className="font-medium text-red-100 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Try Cycle

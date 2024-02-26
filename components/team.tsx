@@ -33,8 +33,9 @@ export default function Team() {
                 height={200}
                 alt="Conor Plunkett Headshot"
               />
-              <h4 className="h4 my-2">Conor Plunkett</h4>
+              <h4 className="h4 mt-2">Conor Plunkett</h4>
               <ul className="text-lg text-gray-400 text-center space-y-1.5">
+                <li className=" text-red-100">Co-Founder & CEO</li>
                 <li>Employee #1 at a $25mm venture studio, 2x launched</li>
                 <li>Full-Stack SWE at Coinbase, Wealthsimple</li>
                 <li>PM at RBC</li>
@@ -44,6 +45,8 @@ export default function Team() {
                 <li>
                   <Link
                     href="https://www.linkedin.com/in/conor-plunkett/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex justify-center items-center text-red-100 bg-gray-800 hover:text-gray-100 hover:bg-red-100 rounded-full transition duration-150 ease-in-out"
                     aria-label="Linkedin"
                   >
@@ -73,8 +76,9 @@ export default function Team() {
                 height={200}
                 alt="Elan Bibas Headshot"
               />
-              <h4 className="h4 my-2">Elan Bibas</h4>
+              <h4 className="h4 mt-2">Elan Bibas</h4>
               <ul className="text-lg text-gray-400 text-center space-y-1.5">
+                <li className=" text-red-100">Co-Founder & COO</li>
                 <li>
                   2 Years as a Data & Analytics Enterprise Consultant at Slalom
                 </li>
@@ -86,6 +90,8 @@ export default function Team() {
                 <li>
                   <Link
                     href="https://www.linkedin.com/in/elanbibas/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex justify-center items-center text-red-100 bg-gray-800 hover:text-gray-100 hover:bg-red-100 rounded-full transition duration-150 ease-in-out"
                     aria-label="Linkedin"
                   >
@@ -115,8 +121,9 @@ export default function Team() {
                 height={200}
                 alt="Manas Srinivasaiah Headshot"
               />
-              <h4 className="h4 my-2 text-center">Manas Srinivasaiah</h4>
+              <h4 className="h4 mt-2 text-center">Manas Srinivasaiah</h4>
               <ul className="text-lg text-gray-400 text-center space-y-1.5">
+                <li className=" text-red-100">Founding Engineer</li>
                 <li>AI & ML Engineer at WaiveTheWait</li>
                 <li>Former AI Founder</li>
                 <li>Spring Activator VC 22</li>
@@ -126,6 +133,8 @@ export default function Team() {
                 <li>
                   <Link
                     href="https://www.linkedin.com/in/manassrini/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex justify-center items-center text-red-100 bg-gray-800 hover:text-gray-100 hover:bg-red-100 rounded-full transition duration-150 ease-in-out"
                     aria-label="Linkedin"
                   >

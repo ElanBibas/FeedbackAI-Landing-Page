@@ -129,7 +129,7 @@ export default function ContactUs() {
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
                   <a
-                    href="mailto:conor@simpleventures.ca"
+                    href="mailto:conor.p43@gmail.com"
                     className="btn text-white bg-red-100 hover:bg-red-100/75 w-full inline-block text-center"
                   >
                     Submit

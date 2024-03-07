@@ -35,8 +35,8 @@ export default function Team() {
               />
               <h4 className="h4 mt-2">Conor Plunkett</h4>
               <ul className="text-lg text-gray-400 text-center space-y-1.5">
-                <li className=" text-red-100">Co-Founder & CEO</li>
-                <li>Employee #2 at a $25mm venture studio, 2x companies launched</li>
+                <li className="text-red-100">Co-Founder & CEO</li>
+                <li>Employee #2 at <a href="https://www.simpleventures.ca/" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">SimpleVentures</a> studio, 2 companies launched</li>
                 <li>Full-Stack SWE at Coinbase, Wealthsimple</li>
                 <li>PM at RBC</li>
                 <li>Cansbridge Fellow</li>

@@ -9,7 +9,7 @@ export default function Header() {
         imageUrl="/Crossmint.png"
         text="Cycle has been acquired by Crossmint"
         linkUrl="https://www.crossmint.com/?gad_source=1&gclid=CjwKCAjwjqWzBhAqEiwAQmtgT8NXAG6exvKcbaXMOaXJYfl_8HlBZN6iyk1rkZ2RNTjuL2nPHVXmnhoCoWcQAvD_BwE"
-        linkText="Visit Crossmints Announcement"
+        linkText="Visit Crossmint's Announcement"
       />
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="mt-14 flex items-center justify-between h-20">
